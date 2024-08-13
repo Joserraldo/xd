@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conoce a Juancho</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Conoce a Juancho</h1>
+        <nav>
+            <ul>
+                <li><a href="#biografia">Biografía</a></li>
+                <li><a href="#galeria">Galería</a></li>
+                <li><a href="#hobbies">Hobbies</a></li>
+                <li><a href="#timeline">Línea de Tiempo</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="biografia" class="section">
+        <h2>Biografía</h2>
+        <img src="juancho.jpg" alt="Foto de Juancho" class="profile-pic">
+        <p>Juancho es un apasionado por la tecnología y actualmente está estudiando Ingeniería de Sistemas. Desde joven, ha mostrado gran interés por los computadores y la programación.</p>
+        <p>A lo largo de su vida, Juancho ha desarrollado habilidades en diversos campos como el diseño gráfico, el desarrollo web, y la inteligencia artificial. Su entusiasmo y dedicación lo han llevado a destacar en múltiples proyectos.</p>
+    </section>
+
+    <section id="galeria" class="section">
+        <h2>Galería</h2>
+        <div class="gallery">
+            <img src="juancho1.jpg" alt="Juancho en la universidad">
+            <img src="juancho2.jpg" alt="Juancho jugando fútbol">
+            <img src="juancho3.jpg" alt="Juancho tocando guitarra">
+            <img src="juancho4.jpg" alt="Juancho en un evento tecnológico">
+        </div>
+    </section>
+
+    <section id="hobbies" class="section">
+        <h2>Hobbies</h2>
+        <ul>
+            <li>Fútbol: Juancho juega como delantero en un equipo local.</li>
+            <li>Música: Es un guitarrista apasionado y disfruta tocar música rock.</li>
+            <li>Programación: Siempre está aprendiendo nuevas tecnologías y lenguajes de programación.</li>
+            <li>Videojuegos: Le gusta jugar videojuegos estratégicos y de aventura.</li>
+        </ul>
+    </section>
+
+    <section id="timeline" class="section">
+        <h2>Línea de Tiempo</h2>
+        <div class="timeline">
+            <div class="timeline-event">
+                <h3>2015</h3>
+                <p>Juancho comienza a aprender programación por su cuenta.</p>
+            </div>
+            <div class="timeline-event">
+                <h3>2018</h3>
+                <p>Ingresa a la universidad para estudiar Ingeniería de Sistemas.</p>
+            </div>
+            <div class="timeline-event">
+                <h3>2020</h3>
+                <p>Participa en su primer hackathon y gana el segundo lugar.</p>
+            </div>
+            <div class="timeline-event">
+                <h3>2023</h3>
+                <p>Desarrolla su primera aplicación móvil, que ayuda a organizar tareas.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="section">
+        <h2>Contacto</h2>
+        <form id="contactForm">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Enviar</button>
+        </form>
+        <p id="formResponse" class="hidden"></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Conoce a Juancho. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
